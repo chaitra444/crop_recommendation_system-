@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FarmVision</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: url('https://example.com/background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        h1 {
+            color: #2e8b57;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+        h2 {
+            color: #4682b4;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Get in Touch</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to FarmVision</h1>
+        <p>At FarmVision, we are dedicated to helping you maximize the potential of your farm. Our mission is to provide expert recommendations on crop cultivation based on your soil’s unique nutrients. By understanding your soil profile, we can guide you towards the best crops for optimal yield and productivity. Simply test your soil in our partner laboratories, and let us assist you in making informed decisions for a successful farming venture.</p>
+        <h3>Embark on a Thriving Agricultural Journey with Us!</h3>
+        <h2>Discover Your Ideal Crop Recommendation</h2>
+        <form action="/Predict">
+            <input type="submit" id="Predict" name="Predict" value="Get Prediction">
+        </form>
+    </main>
+</body>
+</html>

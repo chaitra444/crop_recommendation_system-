@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/prdiction_css.css')}}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://example.com/crop-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 600px;
+        }
+        h4 {
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        h4:first-of-type {
+            font-size: 20px;
+            font-weight: normal;
+        }
+        .crop-name {
+            font-size: 28px;
+            color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4>Based on your soil nutrients:</h4>
+        <h4>You should grow:</h4>
+        <h4 class="crop-name">{{prediction}}</h4>
+    </div>
+</body>
+</html>
