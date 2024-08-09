@@ -29,10 +29,10 @@ In the realm of agriculture, where traditional knowledge meets cutting-edge tech
 ## Screenshots
 
 ### Crop Recommendation System Interface
-![Interface](images/Interface.png)
+![Interface](images/details.png)
 
 ### Detailed Input
-![Details](images/details.png)
+![Details](images/Interface.png)
 
 ### Example Recommendation Output
 ![Result](images/result.png)
